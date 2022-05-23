@@ -2,7 +2,7 @@
 继承于RelativeLayout/ConstraintLayout 可用于复杂结构需求下的RadioGroup
 [![](https://www.jitpack.io/v/zhangxyfs/ComplexRadioGroup.svg)](https://www.jitpack.io/#zhangxyfs/ComplexRadioGroup)  
 
-
+`
 allprojects {  
 	repositories {  
 		...  
@@ -13,3 +13,4 @@ allprojects {
 dependencies {  
         implementation 'com.github.zhangxyfs:ComplexRadioGroup:1.0.0'  
 }  
+`
