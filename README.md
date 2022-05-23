@@ -3,14 +3,14 @@
 [![](https://www.jitpack.io/v/zhangxyfs/ComplexRadioGroup.svg)](https://www.jitpack.io/#zhangxyfs/ComplexRadioGroup)  
 
 ```
-	allprojects {  
-		repositories {  
-			...  
-			maven { url 'https://www.jitpack.io' }  
-		}  
+allprojects {  
+	repositories {  
+		...  
+		maven { url 'https://www.jitpack.io' }  
 	}  
+}  
 
-	dependencies {  
-        	implementation 'com.github.zhangxyfs:ComplexRadioGroup:1.0.0'  
-	}  
+dependencies {  
+       	implementation 'com.github.zhangxyfs:ComplexRadioGroup:1.0.0'  
+}  
 ```
