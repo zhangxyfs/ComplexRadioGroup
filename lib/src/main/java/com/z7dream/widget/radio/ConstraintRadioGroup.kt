@@ -15,7 +15,7 @@ import android.widget.RelativeLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import java.util.ArrayList
 
-class ConstraintRadioGroup(context: Context, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) :
+open class ConstraintRadioGroup(context: Context, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) :
     ConstraintLayout(context, attrs, defStyleAttr, defStyleRes) {
 
     constructor(context: Context) : this(context, null)
