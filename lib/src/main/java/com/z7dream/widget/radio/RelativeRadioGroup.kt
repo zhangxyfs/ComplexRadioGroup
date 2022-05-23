@@ -14,7 +14,7 @@ import android.widget.RadioButton
 import android.widget.RelativeLayout
 import java.util.ArrayList
 
-class RelativeRadioGroup(context: Context?, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) :
+open class RelativeRadioGroup(context: Context?, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) :
     RelativeLayout(context, attrs, defStyleAttr, defStyleRes) {
 
     constructor(context: Context?) : this(context, null)
