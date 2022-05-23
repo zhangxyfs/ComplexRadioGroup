@@ -11,6 +11,6 @@ allprojects {
 }  
 
 dependencies {  
-       	implementation 'com.github.zhangxyfs:ComplexRadioGroup:1.0.0'  
+       	implementation 'com.github.zhangxyfs:ComplexRadioGroup:1.0.1'  
 }  
 ```
