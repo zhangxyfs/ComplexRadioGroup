@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.z7dream.widget.radio.RelativeRadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="rb1" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="rb2" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb1"
+        android:layout_centerHorizontal="true"
+        android:text="rb3" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb3"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</com.z7dream.widget.radio.RelativeRadioGroup>
