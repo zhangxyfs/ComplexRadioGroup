@@ -95,6 +95,8 @@ open class RelativeRadioGroup(context: Context?, attrs: AttributeSet?, defStyleA
         }
         return btnList
     }
+    
+    fun getAllRadioButton() = getAllRadioButton(this)
 
     private fun setCheckedId(id: Int) {
         checkedRadioButtonId = id
